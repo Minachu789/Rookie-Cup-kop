@@ -13,7 +13,7 @@ public class ShooterSubsystem extends SubsystemBase {
         this.motor = new CANSparkMax(DeviceId.ControllMotor.SHOOTER_MOTOR, MotorType.kBrushless);
         this.motor.setSmartCurrentLimit(30);
         this.motor.setInverted(true);
-       
+
     }
 
     public void move(double speed) {
@@ -24,4 +24,3 @@ public class ShooterSubsystem extends SubsystemBase {
         this.motor.stopMotor();
     }
 }
-

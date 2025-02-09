@@ -23,4 +23,3 @@ public class IntakeSubsystem extends SubsystemBase {
         this.motor.stopMotor();
     }
 }
-

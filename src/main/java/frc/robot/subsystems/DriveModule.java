@@ -22,4 +22,3 @@ public class DriveModule {
         this.motor.set(0);
     }
 }
-

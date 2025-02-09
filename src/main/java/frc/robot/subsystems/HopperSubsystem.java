@@ -25,4 +25,3 @@ public class HopperSubsystem extends SubsystemBase {
         this.motor.stopMotor();
     }
 }
-
